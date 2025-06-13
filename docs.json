@@ -1,56 +1,77 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Startery",
+  "description": "Your execution engine. Elite operators, AI agents, structured workflows.",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6366F1",
+    "light": "#818CF8",
+    "dark": "#4F46E5"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Overview",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "group": "Introduction",
+            "pages": ["index", "how-it-works"]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
+            "group": "Get Started",
+            "pages": ["getting-started/companies", "getting-started/operators"]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "For Companies",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Using Startery",
             "pages": [
-              "api-reference/introduction"
+              "companies/bountyboard",
+              "companies/pricing",
+              "companies/hiring"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Support",
+            "pages": ["companies/faq"]
+          }
+        ]
+      },
+      {
+        "tab": "For Operators",
+        "groups": [
+          {
+            "group": "Join Startery",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "operators/launchpad",
+              "operators/talent-levels",
+              "operators/guilds"
             ]
+          },
+          {
+            "group": "Culture",
+            "pages": ["operators/partnership-pledge"]
+          }
+        ]
+      },
+      {
+        "tab": "Product",
+        "groups": [
+          {
+            "group": "Features",
+            "pages": [
+              "product/agents",
+              "product/bountyboard-platform",
+              "product/guilds-teams"
+            ]
+          },
+          {
+            "group": "Legal",
+            "pages": ["legal/privacy", "legal/terms", "legal/conduct"]
           }
         ]
       }
@@ -58,19 +79,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Platform",
+          "href": "https://startery.io",
+          "icon": "rocket"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Join Launchpad",
+          "href": "https://startery.io/launchpad",
+          "icon": "graduation-cap"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Contact",
+          "href": "mailto:hello@startery.io",
+          "icon": "envelope"
         }
       ]
     }
@@ -82,21 +103,39 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Platform",
+        "href": "https://startery.io"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Get Started",
+      "href": "https://startery.io"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "x": "https://x.com/startery",
+      "linkedin": "https://linkedin.com/company/startery"
+    },
+    "links": [
+      {
+        "group": "Legal",
+        "items": [
+          {
+            "label": "Privacy Policy",
+            "href": "https://docs.startery.io/legal/privacy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "https://docs.startery.io/legal/terms"
+          },
+          {
+            "label": "Code of Conduct",
+            "href": "https://docs.startery.io/legal/conduct"
+          }
+        ]
+      }
+    ]
   }
 }
